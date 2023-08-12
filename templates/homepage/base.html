@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>TungLam</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+{% block cssblock %}
+
+{% endblock %}
+</head>
+
+<body>
+{% include 'homepage/navbar.html' %}
+{% block content %}
+{% endblock %}
+{% include 'homepage/footer.html' %}
+{% block jsblock %}
+
+{% endblock %}
+</body>
+</html>
